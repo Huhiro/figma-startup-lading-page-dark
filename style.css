@@ -704,8 +704,9 @@ button {
 }
 
 .media-social img{
-    padding-top: 10px;
-    padding-right: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
 }
 
 @media (max-width: 549px) {
@@ -714,17 +715,11 @@ button {
         flex-direction: column;
         align-items: flex-start;
         padding: 0px;
-        
         position: static;
         width: 549px;
         height: 107px;
         left: 0px;
         top: 0px;
-        
-        
-        /* Inside Auto Layout */
-        
-
     }
 
     .nav-bar {
@@ -799,4 +794,248 @@ button {
     .container-button .btn2{
         margin-left: unset;
     }
-}
+
+    .container-text1 {
+        margin-top: 100px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-chatbox {
+        margin: auto;
+        width: 431px
+    }
+
+    .container-chatbot {
+        margin-top: 100px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container-bot {
+        width: 100%;
+        display: unset;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container-bot .chat {
+        padding-right: unset;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 324px;
+        height: 319px;
+    }
+
+    .line-chart img{
+        margin-top: -632px;
+        margin-left: -5px;
+        padding-bottom: 780px;
+        width: 232px;
+        height: 160px;
+    }
+    
+    .container-right {
+        width: 100%;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-top: 100px;
+    }
+
+    .container-card1 {
+        padding-top: 50px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: unset;
+    }
+
+    .dark-content-7 .content-text p {
+        width: 300px;
+    }
+
+    .container-cards {
+        display: flex;
+        width: 100%;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .container-cards .cards {
+        width: 348px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .container-cards .cards .card-left {
+        width: 348px;
+        height: 572px;
+        margin-bottom: 50px;
+    }
+
+    .container-cards .cards .card-left img {
+        margin-top: 57px;
+        width: 297px;
+    }
+
+    .container-cards .cards .card-right {
+        width: 348px;
+        height: 572px;
+    }
+
+    .container-cards .cards .card-right img {
+        margin-top: 57px;
+        width: 297px;
+    }
+
+    .container-gallery {
+        margin-top: 500px;
+    }
+
+    .container-gallery p{
+        width: 300px;
+    }
+
+    .container-rectangle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: static;
+    height: 1239px;
+    left: 0px;
+    top: 236px;
+    }
+
+    .container-rectangle img {
+        width: 305px;
+        height: 285px;
+        margin-bottom: 33px;
+    }
+
+    .container-rectangle2 {
+        display: none;
+    }
+
+    .container-partners {
+        margin-top: 250px;
+    }
+
+    .container-partners .content-text{
+        align-content: center;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-partners .content-text p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 300px;
+    }
+
+    .container-partners-img {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        align-items: center;
+        justify-content: space-evenly;
+        left: unset;
+        transform: unset;
+        position: unset;
+        width: unset;
+    }
+
+    .container-partners-img img {
+        padding-bottom: 50px;
+    }
+
+    .btn4  {
+        margin-top: unset;
+        margin-bottom: 150px;
+    }
+
+    .cards-testimonials {
+        width: unset;
+
+    }
+
+    .card-container {
+        display: unset;
+        align-items: center;
+        grid-template-columns: unset;
+        grid: unset;
+        height: unset;
+        width: unset;
+    }
+    .card-container .card1 {
+        margin-bottom: 20px;
+    }
+
+    .cta-8 {
+        display: unset;
+    }
+
+    .cta-content {
+        overflow: hidden;
+        display: flex;
+        background: #343434;
+        box-shadow: 0px 4px 31px rgb(0 0 0 / 15%);
+        height: 868px;
+        margin-bottom: 100px;
+        align-items: center;
+        flex-direction: column;
+        margin-top: unset;
+        border-radius: unset;
+        width: unset;
+        justify-content: space-between;
+    }
+
+    .left-content {
+        margin-top: 104px;
+        margin-left: unset;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 407px;
+        flex-direction: column;
+        }
+        
+        .right-content {
+            margin-left: -5px;
+            margin-bottom: -5px;
+        }
+
+        .footer {
+            display: unset;
+        }
+
+        .footer-column {
+            grid-template-columns: unset;
+            width: 513;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: -160px;
+        }
+
+        .container-footer {
+            width: 549px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .footer-row {
+            margin-top: 65px;
+            margin-bottom: 107px;
+        }
+
+        .media-social img {
+            cursor: pointer;
+        }
+    }
