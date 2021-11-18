@@ -51,6 +51,11 @@ button {
     font-size: 17px;
     font-weight: 500;
 }
+
+.box-menu {
+    display: none;
+}
+
 .container{
     display: flex;
     background-color: #181818;
@@ -701,4 +706,97 @@ button {
 .media-social img{
     padding-top: 10px;
     padding-right: 10px;
+}
+
+@media (max-width: 549px) {
+    header {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 0px;
+        
+        position: static;
+        width: 549px;
+        height: 107px;
+        left: 0px;
+        top: 0px;
+        
+        
+        /* Inside Auto Layout */
+        
+
+    }
+
+    .nav-bar {
+        align-items: center;
+        display: inline-flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    .nav-bar .logo {
+        padding-left: 24px;
+    }
+
+    .nav-bar .menu {
+        display: none;
+    }
+
+    .box-menu {
+        display: unset;
+    }
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container .container-text {
+        font-family: Poppins;
+        width: 299px;
+        align-items: centr;
+        justify-content: cener;
+
+    }
+
+    .container .container-text h1 {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 52px;
+        line-height: 62px;
+        text-align: center;
+        letter-spacing: 0.2px;
+    }
+
+    .container .container-text p {
+
+        width: 402px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        margin-left: -50px;
+    }
+    .container .container-text p br {
+        display: none;
+    }
+
+    .container-button {
+        margin-left: none;
+        margin-right: none;
+        flex-direction: column;
+    }
+    
+    .container-button .btn1{
+        margin-bottom: 20px;
+        margin-right: unset;
+    }
+    
+    .container-button .btn2{
+        margin-left: unset;
+    }
 }
